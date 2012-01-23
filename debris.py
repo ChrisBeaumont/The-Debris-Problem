@@ -607,10 +607,12 @@ def plot_solution(s):
         
 def read_solution(problem, solution):
     """ Read a solution file, and import into a new solution object:
+
     NOTE:
-    The solution object may be slightly different than the input file, due to the
-    ambiguity of the order that actions within a given day are performed. This may affect
-    the objective function value
+
+    The solution object may be slightly different than the input file,
+    due to the ambiguity of the order that actions within a given day
+    are performed. This may affect the objective function value
 
     Input:
     Problem: string

@@ -66,9 +66,6 @@ class Vertex(object):
         self.supply = supply
         self.demand = max(0, -1 * supply)
         self.edges = []
-        if edges is not None:
-            for e in edges:
-                self.edges.append(e)
 
     def add_edge(self, edge):
         """ Add an edge to this vertex. Called automatically by Edge.__init__ """
